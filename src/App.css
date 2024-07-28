@@ -1,0 +1,70 @@
+@import url(https://db.onlinewebfonts.com/c/90820e3d7b32d7491b62bd1aae2aafbe?family=NeutraText-Book);
+
+.table thead th {
+    background-color: #c0e3e5; /* Matching the blue from your design */
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+  
+  .table tbody td {
+    text-align: center;
+  }
+  
+  .table-responsive {
+    margin-top: 20px;
+  }
+body {
+    font-family: "NeutraText-Book";
+  }
+
+  /* App.css */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-bar label,
+.filter-bar input,
+.filter-bar select {
+  margin: 0;
+  padding: 5px;
+}
+
+.filter-bar select {
+  width: auto;
+}
+
+.filter-bar input[type="text"] {
+  width: 150px;
+}
+
+.input-group-prepend button {
+  background-color: transparent;
+  border: none;
+}
+
+.input-group input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding: 5px 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group button {
+  background: none;
+  border: none;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
